@@ -23,19 +23,19 @@
 /**
  *  构造单例模式
  *
- *  @param sNavigationControlls 传入自定义NavigationControlls类名
+ *  @param sNavigationControlls 传入自定义 UINavigationController 类名
  *  @param arrayController      传入TabBar 控制层的类名
  *
  *  @discussion 传入的数组必须严格遵守格式如以下例子
  *
  *  Example:
  *
- *  传入自定义NavigationControlls类名
+ *  传入自定义 UINavigationController 类名
  *
  *  @discussion
- *  假如你使用的Controller 不需要 UINavigationControll 那么请忽略这个参数
- *  假如你使用的是系统原生态的 UINavigationControll 那么 你需要传入 @"UINavigationController"
- *  假如你使用的是自定义的 UINavigationControll 那么需要将你定制的 UINavigationControll 类名以字符串形式传入
+ *  假如你使用的 Controller 不需要 UINavigationController 那么请忽略这个参数
+ *  假如你使用的是系统原生态的 UINavigationController 那么 你需要传入 @"UINavigationController"
+ *  假如你使用的是自定义的 UINavigationController 那么需要将你定制的 UINavigationController 类名以字符串形式传入
  *
  *  传入TabBar 控制层的类名
  *

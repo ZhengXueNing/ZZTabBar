@@ -254,7 +254,7 @@ static  ZZTabBar* CustomTabBarVC;
                 else
                 {
 #ifndef DEBUG
-                    NSAssert(navController, @"你传入的 NavigationController 字符串有问题");
+                    NSAssert(navController, @"你传入的 NavigationController %@ 字符串有问题",_sNavigationControlls);
 #endif
                 }
                 
@@ -264,7 +264,7 @@ static  ZZTabBar* CustomTabBarVC;
         else
         {
 #ifndef DEBUG
-            NSAssert(vController, @"你传入的 ViewController 字符串有问题，类名不正确");
+            NSAssert(vController, @"你传入的 ViewController 字符串有问题，%@ 类名不正确",sClassName);
 #endif
         }
         

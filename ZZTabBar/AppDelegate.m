@@ -28,7 +28,7 @@
     
     
     NSArray *array = @[@"OneController",
-                       @"TwoController",
+                       @"twoController",
                        @"ThreeController",
                        @"FourController"];
     
